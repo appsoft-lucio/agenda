@@ -1,20 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { View } from "react-native";
+import Login from "./src/components/screens/login/login.jsx";
+import Account from "./src/components/screens/account/accoun.js";
+import Home from "./src/components/screens/home/home.jsx";
+import Calendar from "./src/components/screens/calendar/calendar.jsx";
+import Profile from "./src/components/screens/profile/profile.jsx";
+import Main from "./src/components/screens/main/main.jsx";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View>
+      <Main />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
